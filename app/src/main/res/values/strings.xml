@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Drive Safely</string>
+    <string name="title_activity_drowsy">drowsy</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">Drive Safely is an Android-based Application that can detect drowsiness and speeding. This application was developed using Google Vision API and GPS. </string>
+    <string name="goals">The purpose of this application is to reduce road accidents and traffic violations rate that are caused by human error such as drowsiness and speeding</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="alarms">
+        <item>alarm-1</item>
+        <item>alarm-2</item>
+        <item>alarm-3</item>
+        <item>alarm-4</item>
+        <item>alarm-5</item>
+    </string-array>
+</resources>

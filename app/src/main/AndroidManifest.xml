@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.drivesafely">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/drivesafe"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/drivesafe"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Home"/>
+        <activity android:name=".stop" />
+        <activity android:name=".Detections" />
+        <activity android:name=".pop" />
+        <activity android:name=".Tips" />
+        <activity android:name=".About" />
+        <activity android:name=".Guide" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".splash"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+</manifest>

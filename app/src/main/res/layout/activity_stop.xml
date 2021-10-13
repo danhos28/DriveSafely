@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4E4D4D"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".stop">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total sleeping:"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/TextViewSleep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sleep"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="#FFFF"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total speeding:"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/speedCountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="speeding"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="#FFFF"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elapsed time:"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="#FFFF"
+        android:layout_marginBottom="10dp"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your average speed:"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/avgspeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speed"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="#FFFF"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance Travelled:"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFF"
+        android:fontFamily="@font/poppinsmedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="#FFFF"
+        android:layout_marginBottom="30dp"
+      />
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#D6ECB8"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Close"
+         />
+</androidx.appcompat.widget.LinearLayoutCompat>
